@@ -9,26 +9,77 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div>
+    <div class="caixa-principal">
         <nav>
-            <h2>Portfólio</h2>
+            <h2 class="portfolio">Portfó<span>lio</span></h2>
             <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Fale comigo</li>
+                <li> <a>Home</a></li>
+                <li> <a>Sobre</a></li>
+                <li> <a>Projetos</a></li>
+                <li> <a>Fale comigo</a></li>
             </ul>
         </nav>
 
-        <div>
-            <h1>César Santos</h1>
+        <div class="meu-nome">
+            <h1>César <span>Santos</span></h1>
             <h3>Programador Front End</h3>
         </div>
     </div>
+
+    <section>
+
+        <img src="./img/1653945631263.jpg" alt="Cesar Santos">
+
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Sou um desenvolvedor Front-end. No momento estou cursando análise e desenvolvimento de sistemas, tenho
+                conhecimento em HTMl, CSS, JavaScript, React.js. Atualmente trabalho como freelance criando projetos com
+                essas tecnologias. Uma característica importante sobre mim é que sou uma pessoa que quero sempre estar
+                por dentro das novidades,atualizações e me empenho sempre para ser o melhor no que eu faço.</p>
+            <button>Entre em contato</button>
+        </div>
+
+    </section>
+
+    <div class="projetos">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
+            <div class="card">
+                <img src="./img/starbucks.png" alt="netflix">
+                <h5>Starbucks</h5>
+                <p>Projeto feito na missão programação do zero de Rodolfo Mori, projeto feito com HTML, CSS, JavaScript,
+                    aplicação de uma cafeteria</p>
+                <a href="https://programa-a-do-zero.vercel.app" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/instagran.png" alt="netflix">
+                <h5>Instagram</h5>
+                <p>Cópia do instagram, usando HTML, CSS, JavaScript, um projeto onde tive a oportunidade de praticar e
+                    aprender mais conceitos do JavaScript.</p>
+                <a href="https://instagram-six-topaz.vercel.app/" target="_blank">Ver projeto</a>
+            </div>
+
+            <div class="card">
+                <img src="./img/netflix.png" alt="netflix">
+                <h5>Netflix</h5>
+                <p>Clone da página principal da Netflix, projeto bem simples mais que deu para práticar um pouco mais o
+                    javascript, conseitos como addEventListener, document.getElementById. Como se diz a prática leva a
+                    perfeição.
+                </p>
+                <a href="https://cesarsantos99.github.io/Netflix/" target="_blank">Ver projeto</a>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
