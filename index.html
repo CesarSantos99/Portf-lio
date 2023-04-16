@@ -16,23 +16,23 @@
 
 <body>
     <div class="caixa-principal">
-        <nav>
+        <nav id="home">
             <h2 class="portfolio">Portfó<span>lio</span></h2>
             <ul>
-                <li> <a>Home</a></li>
-                <li> <a>Sobre</a></li>
-                <li> <a>Projetos</a></li>
-                <li> <a>Fale comigo</a></li>
+                <li> <a class="links" href="#home">Home</a></li>
+                <li> <a class="links" href="#sobre">Sobre</a></li>
+                <li> <a class="links" href="#projetos-id">Projetos</a></li>
+                <li> <a class="links" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
 
-        <div class="meu-nome">
+        <div class="meu-nome" >
             <h1>César <span>Santos</span></h1>
             <h3>Programador Front End</h3>
         </div>
     </div>
 
-    <section>
+    <section id="sobre">
 
         <img src="./img/1653945631263.jpg" alt="Cesar Santos">
 
@@ -47,7 +47,7 @@
 
     </section>
 
-    <div class="projetos">
+    <div class="projetos" id="projetos-id">
         <h2>Principais Projetos</h2>
 
         <div class="card-projetos">
@@ -76,11 +76,17 @@
                 </p>
                 <a href="https://cesarsantos99.github.io/Netflix/" target="_blank">Ver projeto</a>
             </div>
+        </div>
+
+        <!-- Segunda linha -->
+
+        <div class="card-projetos">
 
             <div class="card">
                 <img src="./img/pokemon.png" alt="pokemon">
                 <h5>Pokemon</h5>
-                <p>Uma Imersão MapDev Week, nesse projeto fizemos um carrosel de cartas Pokemon, usando o HTML para fazer a marcação o CSS para estilização e o JavaScript para movimentar o carrosel
+                <p>Uma Imersão MapDev Week, nesse projeto fizemos um carrosel de cartas Pokemon, usando o HTML para
+                    fazer a marcação o CSS para estilização e o JavaScript para movimentar o carrosel
                 </p>
                 <a href="https://projeto-pokemon-beta.vercel.app/" target="_blank">Ver projeto</a>
             </div>
@@ -88,12 +94,14 @@
             <div class="card">
                 <img src="./img/login.react.png" alt="login">
                 <h5>Login</h5>
-                <p>Meu primeiro projeto utilizando react.js, uma de login onde faz o cadastro dos usuarios.                </p>
+                <p>Meu primeiro projeto utilizando react.js, uma de login onde faz o cadastro dos usuarios. </p>
                 <a href="https://primeiro-projeto-react-one.vercel.app/" target="_blank">Ver projeto</a>
             </div>
 
-            
+
+
         </div>
+    </div>
     </div>
 
 
