@@ -31,6 +31,10 @@ nav {
     color: #f9004d;
 }
 
+.links {
+    text-decoration: none;
+    color: #FFF;
+}
 
 li {
     color: #FFF;
@@ -124,6 +128,7 @@ section div button:hover {
 .card-projetos{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 
 .card {
