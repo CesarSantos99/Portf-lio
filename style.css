@@ -96,15 +96,15 @@ section div p {
     margin-bottom: 40px;
 }
 
-section div button {
+section div a {
     color: #FFF;
     background: #f9004d;
-    height: 40px;
-    width: 160px;
-    font-size: 16px;
+    padding: 15px;
+    font-size: 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 section div button:hover {
@@ -172,6 +172,63 @@ section div button:hover {
 .card a:active {
     opacity: 0.5;
 }
+
+footer {
+    background: #000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 40px;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: #f9004d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
 
 
 
